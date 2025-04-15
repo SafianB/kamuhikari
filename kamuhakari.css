@@ -185,35 +185,45 @@ body{
 
 .about .row {
     display: flex;
+    color: var(--primary);
+    
 
 }
 
 .about .row .about-img{
-    flex: 1 1 35rem;
-    
+    flex: 1 1 ;
+    padding: 10px;
+     
 }
 
 .about .row .about-img img{
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    background-color: var(--bg);
 }
 
 .about .row .conten-tentangkami{
-    flex: 1 1 25rem;
+    flex: 1 1;
     padding: 0 1rem;
-    color: var(--primary);
     background-color: var(--bg);
-    border-radius: 10px
+    border-radius: 10px;
+    
 }
 
 .about .row .conten-tentangkami h3{
     font-size: 1.8rem;
     margin-bottom: 1rem;
+    padding: 2px;
 }
 
 .about .row .conten-tentangkami ul{
-   padding: 10px;
+    /* margin-bottom:  0.8rem;
+    font-size: 1.4rem;
+    font-weight: 100;
+    line-height: 1.6; */
+    text-align: justify;
+    padding: 30px;
 
 }
 
@@ -292,11 +302,12 @@ body{
     }
 
     .about .row .conten-tentangkami{
+        margin-top: 10px;
         padding: 0;
     }
 
-    .about .row .conten-tentangkami h3{
-        margin-top: 1rem;
+    .about .row .conten-tentangkami ul{
+        margin-top: -0.5rem;
         font-size: 2rem;
     }
     .about .row .conten-tentangkami p{
