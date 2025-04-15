@@ -18,8 +18,8 @@ html{
 
 body{
     font-family:"Poppins", serif;
-    background-color: var(--bg);
-    color: #fff;
+    background-color: var(--primary);
+    color: var(--bg);
     
     
 }
@@ -32,7 +32,7 @@ body{
     align-items: center;
     padding: 1.4rem 7%;
     background-color: rgba(1, 1, 1, 0.8);
-    border-bottom: 1px solid #7d4242;
+    border-bottom: 1px solid #ffffff;
     position: fixed;
     top: 0;
     left: 0;
@@ -49,7 +49,7 @@ body{
 }
 
 .navbar .logo span{
-    color: var(--primary);
+    color: rgb(249, 246, 182);
 }
 
 .navbar .navbar-nav a{
@@ -82,7 +82,7 @@ body{
 }
 
 .navbar .navbar-extra a:hover{
-    color: var(--primary);
+    color: rgb(249, 246, 182);
 }
 
 #hamburger-menu{
