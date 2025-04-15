@@ -284,9 +284,11 @@ body{
 
 
     .about .row .about-img img{
-        height: 24rem;
+        width: 200px;
+        height: 200px;
         object-fit: cover;
         object-position: center;
+        border-radius: 50%;
     }
 
     .about .row .conten-tentangkami{
