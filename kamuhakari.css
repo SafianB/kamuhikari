@@ -94,7 +94,7 @@ body{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: url(bg.png);
+    background-image: url(bg1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -150,6 +150,21 @@ body{
 }
 
 
+/* Reset: Hide all animated elements initially */
+#home {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1s forwards;
+}
+
+/* Delay animations for staggered effect */
+#home:nth-child(1) { animation-delay: 0.3s; }
+#home:nth-child(2) { animation-delay: 0.6s; }
+.fade-in:nth-child(3) { animation-delay: 0.9s; }
+
+@keyframes fadeIn {
+    to { opacity: 1; transform: translateY(0); }
+}
 
 /* responsive */
 
@@ -197,6 +212,21 @@ body{
 
     .navbar .navbar-nav a:hover::after{
         transform: scaleX(0.2);
+    }
+
+    .hero  {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .hero .content {
+        margin-bottom: -20rem;
+    }
+
+    .hero .flower{
+        padding: 1.5rem;
+        width: 100%;
+        margin-bottom: -10rem;
     }
 
 
