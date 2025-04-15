@@ -506,11 +506,11 @@ footer .credit a:hover{
     }
 
     .about .row .conten-tentangkami ul{
-        margin-top: -0.5rem;
+        margin-top: -5rem;
         font-size: 2rem;
     }
-    .about .row .conten-tentangkami p{
-        font-size: 1.6rem;
+    .about .row .conten-tentangkami h3{
+        padding: 10px;
     }
     .about .row {
         flex-wrap: wrap;
